@@ -11,8 +11,8 @@ extension Date {
     }
   }
 
-  //longitude is in decimal degrees, East positive.
-  public func localSiderealTime(epoch: Epoch = .j2000, longitude: Double) -> Double {
+  //longitude is in decimal degrees, East is positive.
+  public func localSiderealTimeDegrees(epoch: Epoch = .j2000, longitude: Double) -> Double {
     let components = Calendar.current.dateComponents(in: TimeZone(secondsFromGMT: 0)!, from: self)
     let universalTime = Double(components.hour!) + Double(components.minute!) / 60 + Double(components.second!) / 3600
 
