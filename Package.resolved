@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "StarCoordinates",
+        "repositoryURL": "https://github.com/2bjake/StarCoordinates",
+        "state": {
+          "branch": null,
+          "revision": "3b28965acfb75ee628e519629b4c159d1eaed35d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
