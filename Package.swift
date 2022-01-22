@@ -7,7 +7,7 @@ let package = Package(
     name: "StarTracker",
     platforms: [.macOS(.v12)],
     dependencies: [
-      .package(url: "https://github.com/2bjake/StarCoordinates", revision: "3b28965acfb75ee628e519629b4c159d1eaed35d")
+      .package(url: "https://github.com/2bjake/StarCoordinates", branch: "main")
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
